@@ -8,3 +8,9 @@ var o = {a: 1, b: {c: 1}};
 var q = o.a;
 var d = o.b.c;
 
+var o2 = Object.create(null);
+var o3 = Object.create(Object.prototype);
+o = {x: 1, y: {z: [false, null, ""]}};
+s = JSON.stringify(o);
+
+window.location("http://www.baidu.com");
