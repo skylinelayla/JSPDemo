@@ -17,3 +17,5 @@
 setTimeout(function () {
     alert("hello world;")
 }, 2000);
+
+var Elementary = document.getElementsByTagName("name");
